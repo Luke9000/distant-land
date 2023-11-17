@@ -3,15 +3,13 @@ import "./imagePanel.scss"
 import SubText from "./SubText" 
 
 
-const screenResolutionTreshhold1 = 1.4;
+//const screenResolutionTreshhold1 = 1.4;
 const screenResolutionTreshhold2 = 1.1;
 
 const ImagePanel: React.FC = () => {
-  const [shouldRenderFirst, setShouldRenderFirst] = useState<boolean>(window.innerWidth / window.innerHeight > screenResolutionTreshhold1);
   const [shouldRenderLast, setShouldRenderLast] = useState<boolean>(window.innerWidth / window.innerHeight > screenResolutionTreshhold2);
   useEffect(() => {
     const handleResize = () => {
-      setShouldRenderFirst(window.innerWidth / window.innerHeight > screenResolutionTreshhold1);
       setShouldRenderLast(window.innerWidth / window.innerHeight > screenResolutionTreshhold2);
     };
 

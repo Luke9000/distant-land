@@ -8,13 +8,11 @@ let width = () => {
 };
 
 
-let vmin = width() /2;
+
 
 const SpinBtn: React.FC = () => {
 
-  const handleClick = () => {
-    console.log('123');
-  };
+
 
 
   const [vmin, setVmin] = useState(() => width() / 5);

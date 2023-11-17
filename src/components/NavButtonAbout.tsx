@@ -9,7 +9,7 @@ let width = () => {
 };
 
 
-let vmin = width() /2;
+
 
 
 

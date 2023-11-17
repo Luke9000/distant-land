@@ -8,7 +8,7 @@ let width = () => {
 };
 
 
-let vmin = width() /2;
+
 
 const NavButtonTest: React.FC = () => {
 

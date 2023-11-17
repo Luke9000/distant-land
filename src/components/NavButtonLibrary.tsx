@@ -9,10 +9,6 @@ let width = () => {
 };
 
 
-let vmin = width() /2;
-
-
-
 const NavButtonLibrary: React.FC = () => {
 
   const [vmin, setVmin] = useState(() => width() / 4);

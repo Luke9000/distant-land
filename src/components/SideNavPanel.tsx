@@ -1,4 +1,3 @@
-import React from 'react'
 import "./SideNavPanel.scss"
 import "./navButton.scss"
 import ContactButton from "./NavButtonContacts"
