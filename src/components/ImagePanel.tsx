@@ -26,7 +26,6 @@ const ImagePanel: React.FC = () => {
       {shouldRenderLast ?
       <>
         <div className='background__surface inline__elem pluto flow__animation '>
-            <SubText />
             <h2 className='floating__text lift__anim' >Pluto
             <SubText />
             </h2>    
