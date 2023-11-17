@@ -1,0 +1,14 @@
+<svg width="216" height="216" viewBox="0 0 216 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ContactBtn">
+<g id="g2">
+<rect id="t1" x="95.2129" y="105.121" width="13" height="27" rx="5.5" transform="rotate(45 95.2129 105.121)" stroke="#B9B9B9" stroke-width="3"/>
+<rect id="t2" x="111.121" y="114.312" width="13" height="27" rx="5.5" transform="rotate(-45 111.121 114.312)" stroke="#B9B9B9" stroke-width="3"/>
+<rect id="t3" x="114.5" y="98.5" width="13" height="27" rx="5.5" transform="rotate(-180 114.5 98.5)" stroke="#B9B9B9" stroke-width="3"/>
+</g>
+<g id="g1">
+<path id="c3" d="M108.5 188.5C152.683 188.5 188.5 152.683 188.5 108.5C188.5 64.3172 152.683 28.5 108.5 28.5C64.3172 28.5 28.5 64.3172 28.5 108.5C28.5 152.683 64.3172 188.5 108.5 188.5Z" stroke="#B9B9B9" stroke-width="3"/>
+<path id="c2" d="M108.5 188.5C152.683 188.5 188.5 152.683 188.5 108.5C188.5 64.3172 152.683 28.5 108.5 28.5C64.3172 28.5 28.5 64.3172 28.5 108.5C28.5 152.683 64.3172 188.5 108.5 188.5Z" stroke="#B9B9B9" stroke-width="3"/>
+<path id="c1" d="M108.5 188.5C152.683 188.5 188.5 152.683 188.5 108.5C188.5 64.3172 152.683 28.5 108.5 28.5C64.3172 28.5 28.5 64.3172 28.5 108.5C28.5 152.683 64.3172 188.5 108.5 188.5Z" stroke="#B9B9B9" stroke-width="3"/>
+</g>
+</g>
+</svg>

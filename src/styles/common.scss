@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'TASA-Regular';
+    src: url(./assets/fonts/TASAOrbiterDisplay-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Spaced';
+    src: url(./assets/fonts/Spaced-Regular.otf) format('opentype');
+}
+
+h1 {
+    font-family: 'Spaced';
+    font-size: 8.2vmin;
+    line-height: 1.1;
+    padding-left: 3vmin;
+    
+}
+
+body {
+    //overflow: hidden;
+    height:100wh;
+    background-color: rgb(36, 35, 35);
+}
+html::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,49 @@
+@import 'variables.scss'; 
+
+.nav__btn {
+    transition: all $nav-btn-lift-speed ease;
+    cursor: pointer;
+}
+.nav__btn:hover {
+    transform: translateY(-15%)
+  }
+
+#c1,#c2,#c3,#t1,#t2,#t3 {
+  transition: all $nav-btn-expand-speed cubic-bezier(0.23, 1, 0.32, 1);
+  transform-origin: center;
+  overflow: visible;
+}
+
+
+.nav__btn:hover #c2 {
+    transform:scale(1.9);
+}
+.nav__btn:hover #c1 {
+    transform:scale(1.25);
+    stroke: #33C4F2;
+  }
+
+.nav__btn:hover #t1 {
+    transform: translateX(-6%) translateY(6%);
+
+}
+.nav__btn:hover #t2 {
+    transform: translateX(6%) translateY(6%);
+
+}
+.nav__btn:hover #t3 {
+    transform: translateY(-6%);
+
+}
+
+.shift__up {
+
+    top: 55px;
+}
+
+.shift__down {
+
+    margin-top: 5 vmin;
+}
+
+

@@ -1,0 +1,109 @@
+$var: 1;
+.background__space {
+    position:fixed;
+    left:0vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin; 
+    clip-path: circle(50% at 50% 50%);
+    background-size: cover; 
+    z-index: 0;
+    background-image: url("./../assets/images/stars.webp") ;
+}
+
+.scroll__infinite {
+  animation: scrollInfinite 500s linear infinite;
+}
+
+@keyframes scrollInfinite {
+    to {
+      
+   
+      background-position: -800vmin 0;
+
+    }
+  }
+
+ 
+  .side__panel {
+    position: fixed;
+    height:100vh;
+    width:20vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    z-index: 1;
+    gap:2.3vmin;
+    margin-left: 3vmin;
+  }
+
+.side__elem {
+ // position:fixed;
+
+  //height:15vmin;
+ // width:15vmin;
+ // z-index: 2;
+
+ // transform: translate(-50%, -50%);
+}
+
+.inline__flex {
+display:flex;
+flex-direction: row;
+
+}
+
+.slide__down{
+
+  margin-top:6.5vmin;
+}
+
+.circular {
+
+transform-origin: 100px;
+transform: rotate(calc(360deg/8 * $var))
+}
+
+.spin__btn {
+  transform: translate(195%, -170%);
+ // top: -15vh;
+ // left:15vh;
+   animation: rot 3s linear infinite;
+}
+
+@keyframes rot {
+  from {
+    transform: translate(235%, -170%) rotate(0deg);
+    
+  }
+  to {
+    transform: translate(235%, -170%) rotate(360deg);
+  }
+}
+
+.above {
+  display:fixed;
+  height:0;
+  width:0;
+  }
+
+  .spin__btn #c1{
+    animation: rot2 3s ease-out infinite;
+    transform-origin: center;
+    overflow: visible;
+  }
+
+
+  @keyframes rot2 {
+    from {
+      transform: scale(1);
+      
+    }
+    to {
+      transform: scale(1.4);
+      stroke: #33c5f200;
+    }
+  }
+  
+  

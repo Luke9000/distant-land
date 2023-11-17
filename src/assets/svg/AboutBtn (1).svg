@@ -1,0 +1,12 @@
+<svg width="569" height="456" viewBox="0 0 569 456" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="AboutBtn">
+<g id="Frame 12">
+<rect id="Rectangle 25" x="356.213" y="355.121" width="13" height="27" rx="5.5" transform="rotate(45 356.213 355.121)" stroke="#B9B9B9" stroke-width="3"/>
+<rect id="Rectangle 26" x="372.121" y="364.313" width="13" height="27" rx="5.5" transform="rotate(-45 372.121 364.313)" stroke="#B9B9B9" stroke-width="3"/>
+<rect id="Rectangle 27" x="375.5" y="348.5" width="13" height="27" rx="5.5" transform="rotate(-180 375.5 348.5)" stroke="#B9B9B9" stroke-width="3"/>
+</g>
+<path id="btn" d="M368.5 440.5C412.683 440.5 448.5 404.683 448.5 360.5C448.5 316.317 412.683 280.5 368.5 280.5C324.317 280.5 288.5 316.317 288.5 360.5C288.5 404.683 324.317 440.5 368.5 440.5Z" stroke="#B9B9B9" stroke-width="3"/>
+<path id="btn_2" d="M368.5 440.5C412.683 440.5 448.5 404.683 448.5 360.5C448.5 316.317 412.683 280.5 368.5 280.5C324.317 280.5 288.5 316.317 288.5 360.5C288.5 404.683 324.317 440.5 368.5 440.5Z" stroke="#B9B9B9" stroke-width="3"/>
+<path id="btn_3" d="M368.5 440.5C412.683 440.5 448.5 404.683 448.5 360.5C448.5 316.317 412.683 280.5 368.5 280.5C324.317 280.5 288.5 316.317 288.5 360.5C288.5 404.683 324.317 440.5 368.5 440.5Z" stroke="#B9B9B9" stroke-width="3"/>
+</g>
+</svg>
