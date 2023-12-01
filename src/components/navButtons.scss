@@ -1,0 +1,52 @@
+.nav__buttons {
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    z-index: 2;
+}
+
+.top__left {
+    height:10vh;
+    width:10vw;
+    margin-left: 18vw;
+    margin-top: 10vh;
+    @media (max-aspect-ratio:1.4) {
+        margin-left: 25vw;
+    }
+    
+}
+
+.top__right {
+    height:10vh;
+    width:10vw;
+    margin-left: 91vw;
+    top: 30vh;
+
+    @media (max-aspect-ratio: 1.4) {
+        margin-left: 86vw;
+    }
+    
+}
+
+.bot__left {
+    height:10vh;
+    width:10vw;
+    margin-left: 18vw;
+    margin-top: 78vh;
+    @media (max-aspect-ratio:1.4) {
+        margin-left: 25vw;
+    }
+    
+}
+
+.bot__right {
+    height:10vh;
+    width:10vw;
+    margin-left: 91vw;
+    margin-top: 60vh;  
+    
+    @media (max-aspect-ratio: 1.4) {
+        margin-left: 86vw;
+    }
+}
+

@@ -1,19 +1,46 @@
 @font-face {
     font-family: 'TASA-Regular';
-    src: url(./assets/fonts/TASAOrbiterDisplay-Regular.otf) format('opentype');
+    src: url(./../assets/fonts/TASAOrbiterDisplay-Regular.otf) format('opentype');
 }
 
 @font-face {
+    font-family: 'TASA-Seminbold';
+    src: url(./../assets/fonts/TASAOrbiterDisplay-SemiBold.otf) format('opentype');
+}
+
+
+@font-face {
     font-family: 'Spaced';
-    src: url(./assets/fonts/Spaced-Regular.otf) format('opentype');
+    src: url(./../assets/fonts/Spaced-Regular.otf) format('opentype');
 }
 
 h1 {
     font-family: 'Spaced';
     font-size: 8.2vmin;
     line-height: 1.1;
-    padding-left: 3vmin;
     
+}
+
+h3 {
+    font-family: 'TASA-Regular';
+    font-size: 3.0vmin;
+    line-height: 1.1;
+    
+}
+
+h4 {
+    font-family: 'TASA-Seminbold';
+    font-size: 3.8vmin;
+    line-height: 1.1;
+    
+}
+
+.answer {
+    font-family: 'TASA-Regular';
+    font-size: 3.1vmin;
+    line-height: 1.1;
+    color: #B9B9B9;
+
 }
 
 body {

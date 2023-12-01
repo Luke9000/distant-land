@@ -6,6 +6,7 @@ import TestButton from "./NavButtonTest"
 import AboutButton from "./NavButtonAbout"
 import TransparentRing from "./../assets/svg/tranparentRing.svg"
 import SpinBtn from "./SpinBtn"
+import Basic from "./Basic.scss"
 
 const SideNavPanel = () => {
 
@@ -18,8 +19,7 @@ const SideNavPanel = () => {
                 <LibraryButton />
                 <ContactButton />
               </div>          
-              <h1>Distant <br></br> Land
-              </h1>  
+              <h1>Distant <br></br> Land </h1>  
               <div className='above'>
                 <SpinBtn /> 
               </div>

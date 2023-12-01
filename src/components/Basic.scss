@@ -1,0 +1,88 @@
+.side__panel {
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    gap: 2.3vmin;
+    margin-left: 3vmin;
+  }
+
+.background__space {
+    position:fixed;
+    left:0vw;
+    top: 50vh;
+    transform: translate(-50%, -50%);
+    width: 80vmin;
+    height: 80vmin; 
+    clip-path: circle(50% at 50% 50%);
+    background-size: cover; 
+    z-index: 0;
+    background-image: url("./../assets/images/stars.webp");
+}
+
+.scroll__infinite {
+  animation: scrollInfinite 500s linear infinite;
+
+  @media (max-aspect-ratio:1.4) {
+    animation: scrollInfinite 1500s linear infinite;
+  }
+}
+
+@keyframes scrollInfinite {
+    to {
+         
+      background-position: -800vmin 0;
+
+    }
+  }
+
+  h2 {
+    font-family: 'Spaced';
+    font-size: 5.2vmin;
+    line-height: 1.1;
+
+  }
+
+.inline__flex {
+  display:flex;
+  flex-direction: row;
+  }
+
+.inline__flex--centered {
+  
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  }
+
+
+.small__gap {
+
+  gap: 2.3vmin;
+
+}
+
+
+.inline {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  position:block;
+  //width:15vmin;
+}
+
+.bg__img {
+  width:100vw;
+  height: 100vh;
+  position:fixed;
+  background-size: cover; 
+
+  &--test {
+    background-image: url("./../assets/images/test.webp");
+  }
+ 
+
+}

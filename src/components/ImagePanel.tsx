@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./imagePanel.scss"
+import "./Basic.scss"
 import SubText from "./SubText" 
 
 

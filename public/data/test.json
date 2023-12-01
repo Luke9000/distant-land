@@ -1,0 +1,80 @@
+{
+    "B1": 
+    {
+        "Question": "How does Jupiter's mass compare to the combined mass of all the other planets in our solar system?",
+        "Answers":
+        [
+            "Jupiter is slightly more massive.",
+            "Jupiter is about the same mass.",
+            "Jupiter is significantly more massive."
+        ],
+        "Correct": 3
+    },
+    "B2": 
+    {
+        "Question": "What is the runaway greenhouse effect on Venus caused by?",
+        "Answers":
+        [
+            "Excessive volcanic activity",
+            "High levels of methane in the atmosphere",
+            "A thick layer of carbon dioxide in the atmosphere"
+        ],
+        "Correct": 1
+    },
+    "B3": 
+    {
+        "Question": "What is Venus known for?",
+        "Answers":
+        [
+            "Extreme heat and a thick atmosphere",
+            "Vast oceans and lush vegetation",
+            "Icy polar caps and frigid temperatures"
+        ],
+        "Correct": 3
+    },
+    "B4": 
+    {
+        "Question": "Why is Venus often referred to as Earth's \"sister planet\"?",
+        "Answers":
+        [
+            "It has a similar climate and abundant water.",
+            "It's the same size as Earth.",
+            "It's located closest to Earth in our solar system."
+        ],
+        "Correct": 3
+    },
+    "B5": 
+    {
+        "Question": "What is the most prominent feature in Jupiter's atmosphere?",
+        "Answers":
+        [
+            "Clear skies and calm weather",
+            "The Great Red Spot, a massive storm",
+            "Frequent meteor showers"
+        ],
+        "Correct": 3
+    },
+    "B6": 
+    {
+        "Question": "What is the average surface temperature on Pluto?",
+        "Answers":
+        [
+            "A scorching 467°C",
+            "An average 25°C",
+            "An icy -275°C"
+        ],
+        "Correct": 3
+    },
+    "B7": 
+    {
+        "Question": "End?",
+        "Answers":
+        [
+            "Yes",
+            "No",
+            "Not sure"
+        ],
+        "Correct": 3
+    }
+    
+  }
