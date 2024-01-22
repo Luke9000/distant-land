@@ -8,7 +8,7 @@
             "Jupiter is about the same mass.",
             "Jupiter is significantly more massive."
         ],
-        "Correct": 3
+        "Correct": 2
     },
     "B2": 
     {
@@ -19,7 +19,7 @@
             "High levels of methane in the atmosphere",
             "A thick layer of carbon dioxide in the atmosphere"
         ],
-        "Correct": 1
+        "Correct": 2
     },
     "B3": 
     {
@@ -30,7 +30,7 @@
             "Vast oceans and lush vegetation",
             "Icy polar caps and frigid temperatures"
         ],
-        "Correct": 3
+        "Correct": 0
     },
     "B4": 
     {
@@ -41,7 +41,7 @@
             "It's the same size as Earth.",
             "It's located closest to Earth in our solar system."
         ],
-        "Correct": 3
+        "Correct": 1
     },
     "B5": 
     {
@@ -52,7 +52,7 @@
             "The Great Red Spot, a massive storm",
             "Frequent meteor showers"
         ],
-        "Correct": 3
+        "Correct": 1
     },
     "B6": 
     {
@@ -63,18 +63,18 @@
             "An average 25°C",
             "An icy -275°C"
         ],
-        "Correct": 3
+        "Correct": 2
     },
     "B7": 
     {
-        "Question": "End?",
+        "Question": "Ready?",
         "Answers":
         [
             "Yes",
             "No",
-            "Not sure"
+            ""
         ],
-        "Correct": 3
+        "Correct": 0
     }
     
   }
